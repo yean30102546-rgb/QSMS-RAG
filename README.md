@@ -49,7 +49,7 @@
     > git clone https://github.com/narongskml/rag_pdf.git
     > cd rag_pdf
     > python -m venv .venv
-    > .venv\Script\activate
+    > .venv\Scripts\activate
     > pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
     > pip install -r requirements.txt
     > python rag_pdf.py
