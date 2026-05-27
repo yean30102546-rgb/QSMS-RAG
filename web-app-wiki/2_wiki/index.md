@@ -43,6 +43,8 @@ _ไม่มีปัญหาค้างคาในขณะนี้_
 ## 🤖 Agent Frameworks
 - [Deep Agents](agent-frameworks/deepagents.md) - โครงสร้าง Python SDK/CLI, LangGraph, agent memory, acp และ test commands ในการพัฒนาเอเจนต์
 - [Harness Skills](agent-frameworks/harness-skills.md) - ระบบจัดการและตั้งค่าทักษะเอเจนต์เพื่อรันและดีบั๊กเวิร์กโฟลว์ CI/CD ร่วมกับ Harness MCP server
+- [Frontend Slides Skill](agent-frameworks/frontend-slides.md) - ทักษะการสร้างและแปลงสไลด์พรีเซนเตชันแบบอนิเมชันความละเอียดสูงผ่าน HTML/CSS
+
 
 ## 🧠 AI, ML & Data Utilities
 - [Chroma Vector Database](ai-ml-utilities/vector-search-chroma.md) - ระบบโครงสร้างพื้นฐานจัดเก็บเวกเตอร์สำหรับการค้นหาแบบ Semantic Search และ API การคิวรี
