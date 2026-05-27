@@ -7,3 +7,4 @@ transformers
 ollama
 shortuuid
 pythainlp
+python-pptx
