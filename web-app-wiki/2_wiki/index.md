@@ -41,9 +41,11 @@ _ไม่มีปัญหาค้างคาในขณะนี้_
 - [Testsprite Testing](nextjs-frontend/testsprite-testing.md) - รายละเอียดแผนการทดสอบอัตโนมัติ (RBAC & Multi-item Flow) ด้วย Playwright Python
 
 ## 🤖 Agent Frameworks
+- [Agent Skills Registry](skills/skills-registry.md) - สารบัญและการคัดกรองการใช้ทักษะ (Skills) ของเอเจนต์ตามลักษณะของ Task
 - [Deep Agents](agent-frameworks/deepagents.md) - โครงสร้าง Python SDK/CLI, LangGraph, agent memory, acp และ test commands ในการพัฒนาเอเจนต์
 - [Harness Skills](agent-frameworks/harness-skills.md) - ระบบจัดการและตั้งค่าทักษะเอเจนต์เพื่อรันและดีบั๊กเวิร์กโฟลว์ CI/CD ร่วมกับ Harness MCP server
 - [Frontend Slides Skill](agent-frameworks/frontend-slides.md) - ทักษะการสร้างและแปลงสไลด์พรีเซนเตชันแบบอนิเมชันความละเอียดสูงผ่าน HTML/CSS
+
 
 
 ## 🧠 AI, ML & Data Utilities
