@@ -12,3 +12,6 @@ data/
 
 # Virtual environments
 .venv
+
+# Local Agent files
+.Agent/

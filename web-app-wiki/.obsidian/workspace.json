@@ -1,0 +1,218 @@
+{
+  "main": {
+    "id": "f09bffeced707ad6",
+    "type": "split",
+    "children": [
+      {
+        "id": "2165b1dcc0f1f76f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d1fb03d42cec95a6",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "598d05075ce11bd4",
+    "type": "split",
+    "children": [
+      {
+        "id": "0f6e87b321d5bac6",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2afce5caa53d9399",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "a743d934fe99f62e",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "9357ec012a8f9822",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "978a97887d8c3289",
+    "type": "split",
+    "children": [
+      {
+        "id": "eef5224c76e2973d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "419c828a1b824e9c",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
+            }
+          },
+          {
+            "id": "9a7af653c26b23d8",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
+            }
+          },
+          {
+            "id": "62d55f0ff6ed5461",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "6788bd1bdfb37589",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "5dd0789d8e36dedf",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "d1fb03d42cec95a6",
+  "lastOpenFiles": [
+    "2_wiki/ai-ml-utilities/gradio-ui.md",
+    "2_wiki/ai-ml-utilities/image-processing-clip-pillow.md",
+    "2_wiki/ai-ml-utilities/document-processing-pymupdf.md",
+    "2_wiki/ai-ml-utilities/deep-learning-transformers.md",
+    "2_wiki/ai-ml-utilities/thai-nlp-pythainlp.md",
+    "2_wiki/ai-ml-utilities/vector-search-chroma.md",
+    "2_wiki/ai-ml-utilities",
+    "2_wiki/architecture/cors-csp-setup.md",
+    "2_wiki/nextjs-frontend/image-upload-system.md",
+    "2_wiki/architecture/deployment.md",
+    "2_wiki/lessons-learned/box-number-binding-and-jwt-e2e.md",
+    "1_raw/chroma-corechroma Search infrastructure for AI.md",
+    "2_wiki/lessons-learned/rbac-casing-and-e2e.md",
+    "2_wiki/lessons-learned/item-master-upsert-flow.md",
+    "2_wiki/SESSION_KNOWLEDGE_2026_05_25.md",
+    "1_raw/Use the power of AI for quick summarization and note taking, NotebookLM is your powerful virtual research assistant rooted in information you can trust/Note Taking & Research Assistant Powered by AI.md",
+    "1_raw/Use the power of AI for quick summarization and note taking, NotebookLM is your powerful virtual research assistant rooted in information you can trust",
+    "1_raw/Tech Stack 2026/Note Taking & Research Assistant Powered by AI.md",
+    "1_raw/Tech Stack 2026",
+    "1_raw/การออกแบบ UX/UI ที่ดี/การออกแบบ UXUI ที่ดี และมีประสิทธิภาพ.md",
+    "1_raw/การออกแบบ UX/UI ที่ดี",
+    "1_raw/การออกแบบ UX",
+    "1_raw/tech stack/tech stack 2026.md",
+    "1_raw/tech stack",
+    "1_raw/prisma/prismaprisma Next-generation ORM for Node.js & TypeScript  PostgreSQL, MySQL, MariaDB, SQL Server, SQLite, MongoDB and CockroachDB.md",
+    "1_raw/prisma",
+    "1_raw/llm-wiki/llm-wiki.md",
+    "1_raw/llm-wiki",
+    "1_raw/debugger.md/awesome-claude-code-subagentscategories04-quality-securitydebugger.md at main.md",
+    "1_raw/debugger.md",
+    "1_raw/VoltAgent/VoltAgentawesome-design-md A collection of DESIGN.md files inspired by popular brand design systems. Drop one into your project and let coding agents generate a matching UI.md",
+    "1_raw/VoltAgent",
+    "1_raw/Next.js คืออะไร ช่วยให้เราทำงานได้ง่ายขึ้นยังไงบ้าง/Next.js คืออะไร ช่วยให้เราทำงานได้ง่ายขึ้นยังไงบ้าง.md",
+    "1_raw/Next.js คืออะไร ช่วยให้เราทำงานได้ง่ายขึ้นยังไงบ้าง",
+    "1_raw/Mantine/A fully featured React components library.md",
+    "1_raw/Kodezi Chronos/KodeziChronos Kodezi Chronos is a debugging-first language model that achieves state-of-the-art results on SWE-bench Lite (80.33%) and 67% real-world fix accuracy, over six times better than GPT-4. Built with Adaptive Graph-Guided Retrieval and.md"
+  ]
+}

@@ -10,7 +10,11 @@ import chromadb
 from chromadb.config import Settings
 from sentence_transformers import SentenceTransformer
 from pythainlp.tokenize import word_tokenize
-from transformers import MT5Tokenizer, MT5ForConditionalGeneration
+from transformers import MT5ForConditionalGeneration
+try:
+    from transformers import MT5Tokenizer
+except ImportError:
+    from transformers import T5Tokenizer as MT5Tokenizer
 
 import torch
 import ollama
@@ -24,7 +28,7 @@ from typing import List, Dict, Tuple
 TEMP_IMG="./data/images"
 TEMP_VECTOR="./data/chromadb"
 # รายชื่อ Model ที่คุณมีบน Ollama
-AVAILABLE_MODELS = ["pdf-gemma", "pdf-qwen","pdf-llama"]
+AVAILABLE_MODELS = ["pdf-qwen", "pdf-llama", "pdf-gemma"]
 
 # Setup logging
 logging.basicConfig(level=logging.INFO)
@@ -201,8 +205,8 @@ def store_in_chroma(content_chunks: List[Dict], pdf_name: str):
         logging.info("################# images embeding store ##################")
         logging.info(f"images: {images} ")
         for img in images:
-            logging.info(f"images desc: {img["description"]} ")
-            logging.info(f"images path: {img["path"]} ")            
+            logging.info(f"images desc: {img['description']} ")
+            logging.info(f"images path: {img['path']} ")            
             img_id = shortuuid.uuid()[:8]
             img_path = img["path"]
             logging.info(f"img_path: {text} ")
@@ -308,7 +312,7 @@ def query_rag(question: str,  chat_llm: str = "pdf-qwen"):
         print("---------------------------")
         if metadata:
             if metadata["type"] == "image":
-                logging.info(f"image_path : { metadata["image_path"]}")
+                logging.info(f"image_path : { metadata['image_path']}")
                 image_paths.append(metadata['image_path'])
     
 
@@ -430,13 +434,13 @@ with gr.Blocks() as demo:
         # Choice เลือก Model
         model_selector = gr.Dropdown(
             choices=AVAILABLE_MODELS,
-            value="pdf-gemma",
+            value="pdf-qwen",
             label="เลือก LLM Model"
         )
-        selected_model = gr.State(value="pdf-gemma")  # เก็บไว้ใน state
+        selected_model = gr.State(value="pdf-qwen")  # เก็บไว้ใน state
         model_selector.change(fn=lambda x: x, inputs=model_selector, outputs=selected_model)
         # Chat Bot
-        chatbot = gr.Chatbot(type="messages")
+        chatbot = gr.Chatbot()
         msg = gr.Textbox(label="ถามคำถามเกี่ยวกับ PDF")
         # Clear button 
         clear_chat = gr.Button("ล้าง")
